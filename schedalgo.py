@@ -66,7 +66,7 @@ FCFSalgo(pl,atl,etl)
 def sjf_scheduling(processList, arrival_times, burst_times):
     n = len(arrival_times)
     processes = list(zip(processList, arrival_times, burst_times))
-    processes.sort(key=lambda x: x[1])  # Sort processes by arrival time
+    processes.sort(key=lambda x: x[1])
     
     current_time = 0
     waiting_time = 0
@@ -76,8 +76,8 @@ def sjf_scheduling(processList, arrival_times, burst_times):
     
     for process in processes:
         process_id, arrival_time, burst_time = process
-        waiting_time = max(0, current_time - arrival_time) #hav to chk if correct
-        turnaround_time = waiting_time + burst_time #hav to chk if correct
+        waiting_time = max(0, current_time - arrival_time) #HAV TO CHK IF CORRECT
+        turnaround_time = waiting_time + burst_time #HAV TO CHK IF CORRECT
         
         print(f"{process_id}\t\t{arrival_time}\t\t{burst_time}\t\t{waiting_time}\t\t{turnaround_time}")
         current_time += burst_time
