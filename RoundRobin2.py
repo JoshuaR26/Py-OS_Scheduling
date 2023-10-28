@@ -4,7 +4,7 @@ def findWaitingTime(processes, n, bt,
 
 	for i in range(n): 
 		rem_bt[i] = bt[i]
-	t = 0 # Current time 
+	t = 0
 
 	while(1):
 		done = True
