@@ -1,9 +1,9 @@
-**Project Title: Multi-Algorithm CPU Process Scheduling Simulator**
+# Multi-Algorithm CPU Process Scheduling Python Simulator 
 
-**Project Description:**
+# Project Description
 The Multi-Algorithm CPU Process Scheduling Simulator is a comprehensive operating system project implemented in Python that allows users to explore and compare various CPU process scheduling algorithms, including First-Come-First-Serve (FCFS), Shortest Job First (SJF), Round Robin, and Priority-Based scheduling. This project provides a user-friendly graphical user interface (GUI) to input process parameters and analyze the performance of these scheduling algorithms by calculating average turnaround time, waiting time, and other relevant metrics.
 
-**Key Features:**
+# Key Features
 
 1. **Graphical User Interface (GUI):** The project offers a user-friendly GUI that enables users to input essential process details such as process arrival time, burst time, priority, and time quantum (for Round Robin). This GUI simplifies the process of defining the scheduling scenarios.
 
@@ -23,18 +23,24 @@ The Multi-Algorithm CPU Process Scheduling Simulator is a comprehensive operatin
 
 5. **Scenario Comparison:** Users can compare the performance of different scheduling algorithms by running scenarios with various input parameters and reviewing the calculated metrics.
 
-**Project Goals:**
+# Project Goals
 The primary objectives of this project are as follows:
 
 - Provide an educational tool for understanding and visualizing the behavior of various CPU process scheduling algorithms.
 - Allow users to experiment with different process scenarios and scheduling algorithms to gain insights into their strengths and weaknesses.
 - Help students, educators, and OS enthusiasts in studying and teaching operating system concepts.
 
-**Technologies Used:**
+# Technologies Used
 - Python for algorithm implementation and GUI development.
 - Tkinter or a Python GUI library of your choice for creating the graphical user interface.
 
-**Potential Extensions:**
+# Potential Extensions
 This project can be extended in several ways, including the implementation of additional scheduling algorithms (e.g., Priority-Based Round Robin), support for multiple CPU cores, and the ability to load and save scheduling scenarios for later analysis.
 
 By implementing a comprehensive set of CPU process scheduling algorithms and providing a user-friendly interface, this project serves as a valuable resource for understanding and experimenting with the core concepts of operating system design and process scheduling.
+
+# Project Team
+Gorav Jhabakh -  22BAI1037
+Siddharth S -  22BAI1099
+V KAMAL JEROME - 22BAI1212
+JOSHUA S RAJU - 22BAI1213
