@@ -1,4 +1,5 @@
-# Multi-Algorithm CPU Process Scheduling Python Simulator 
+# MAPS-Py 
+## (Multi-Algorithm Process Simulator - Python)
 
 # Project Description
 The Multi-Algorithm CPU Process Scheduling Simulator is a comprehensive operating system project implemented in Python that allows users to explore and compare various CPU process scheduling algorithms, including First-Come-First-Serve (FCFS), Shortest Job First (SJF), Round Robin, and Priority-Based scheduling. This project provides a user-friendly graphical user interface (GUI) to input process parameters and analyze the performance of these scheduling algorithms by calculating average turnaround time, waiting time, and other relevant metrics.
