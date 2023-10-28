@@ -41,6 +41,10 @@ By implementing a comprehensive set of CPU process scheduling algorithms and pro
 
 # Project Team
 Gorav Jhabakh -  22BAI1037
+
 Siddharth S -  22BAI1099
-V KAMAL JEROME - 22BAI1212
-JOSHUA S RAJU - 22BAI1213
+
+V Kamal Jerome - 22BAI1212
+
+Joshua S Raju - 22BAI1213
+
