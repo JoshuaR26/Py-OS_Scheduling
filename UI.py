@@ -4,7 +4,7 @@ from tkinter import *
 from tkinter import ttk
 
 root3=CTk()
-root3.geometry('750x600')
+root3.geometry('750x700')
 root3.title('Process Scheduling')
 
 font1 = ('Arial',24)
@@ -62,26 +62,26 @@ style = ttk.Style()
 style.configure("mystyle.Treeview",font = font1,rowheight = 50)
 style.configure("mystyle.Treeview.heading",font  = font1)
 style.layout("mystyle.Treeview",[('mystyle.Treeview.treearea',{'sticky':'nwse'})])
-tv = ttk.Treeview(root3,columns = (1,2,3,4,5,6),show = "headings", style = "mystyle.Treeview")
+tv = ttk.Treeview(root3,columns = (1,2,3,4,5),show = "headings", style = "mystyle.Treeview")
 tv.heading("1",text = "PID")
 tv.column("1",anchor = CENTER,width = row_wid)
 tv.heading("2",text = "AT")
 tv.column("2",anchor = CENTER,width = row_wid)
 tv.heading("3",text = "BT")
 tv.column("3",anchor = CENTER,width = row_wid)
-tv.heading("4",text = "CT")
+tv.heading("4",text = "TAT")
 tv.column("4",anchor = CENTER,width = row_wid)
-tv.heading("5",text = "TAT")
+tv.heading("5",text = "WT")
 tv.column("5",anchor = CENTER,width = row_wid)
-tv.heading("6",text = "WT")
-tv.column("6",anchor = CENTER,width = row_wid)
+#tv.heading("6",text = "WT")
+#tv.column("6",anchor = CENTER,width = row_wid)
 
 # tv.insert(parent = '', index = 'end', values=(1,0,4,'-','-','-'))
 
 tv.place(x = 20,y = 250)
 
 B2 = CTkButton(root3, text = 'Execute', width=100, height=30, command = None)
-B2.place(x = 50, y = 525)
+B2.place(x = 20, y = 650)
 root3.mainloop()
 
 
