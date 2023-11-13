@@ -10,9 +10,12 @@ root3.title('Process Scheduling')
 font1 = ('Arial',24)
 row_wid = 180
 
-CT = [2, 1, 0, 3]
+'''CT = [2, 1, 0, 3]
 TT = [10, 17, 12, 37]
-WT = [0, 10, 7, 12]
+WT = [0, 10, 7, 12]'''
+
+AT=[]
+BT=[]
 
 def run() :
    pass
@@ -25,13 +28,15 @@ def ask1(*args) :
 
 
 def add_row() :
-    val = (EN1.get(),EN2.get(),EN3.get(),str(CT[0]),str(TT[0]), str(WT[0]))
-    # val = (EN1.get(),EN2.get(),EN3.get(),'-','-','-')
+    #val = (EN1.get(),EN2.get(),EN3.get(),str(CT[0]),str(TT[0]), str(WT[0]))
+    val = (EN1.get(),EN2.get(),EN3.get(),'-','-','-')
+    AT.append(EN2.get())
+    BT.append(EN3.get())
     tv.insert(parent = '',index = 'end', values = val)
     tv.place(x = 20, y = 250)
-    del CT[0]
+    '''del CT[0]
     del WT[0]
-    del TT[0]
+    del TT[0]'''
 
 #run()
 EN1 = CTkEntry(root3,width = row_wid,height = 30,font = ('calibri',20))
