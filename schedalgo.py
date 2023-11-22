@@ -8,6 +8,7 @@ def fcfs(processes):
     n = len(processes)
     waiting_time = [0] * n
     turnaround_time = [0] * n
+    completion_time = [0] * n
 
     waiting_time[0] = 0
 
